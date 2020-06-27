@@ -256,6 +256,14 @@ svg#clouds {
   width: 1920px;
 }
 
+.container-color {
+  background-color: rgba(139, 137, 137, 0.465);
+}
+
+.ng-invalid.ng-touched:not(form) {
+  border: 1px solid red;
+}
+
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {

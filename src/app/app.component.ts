@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Cifra De Cesar';
+
+  obj: any = {
+    texto: '',
+    chave: ''
+  };
+
+  constructor() { }
+
+  onSubmit(form): void {
+    console.log(form);
+  }
 }
