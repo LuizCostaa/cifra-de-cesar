@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cifra-de-cesar"
+    }
+  },
+  "defaultProject": "cifra-de-cesar",
+  "cli": {
+    "analytics": "82eb4b9b-43f7-4137-8b1d-ccf85b04a747"
+  }
 }
