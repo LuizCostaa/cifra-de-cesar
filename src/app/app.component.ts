@@ -16,13 +16,13 @@ export class AppComponent {
       resultOutput.push(this.calculateIndexOfAscii(letter.charCodeAt(0), chave.charCodeAt(0)));
     });
 
-    // console.log(resultOutput.join('').replace(';', ' '));
+    console.log(resultOutput.join('').replace(';', ' '));
   }
 
   calculateIndexOfAscii(letter: number, asciiKeyIndex: number): string {
     asciiKeyIndex = asciiKeyIndex - 65;
 
-    console.log((letter - 65 + asciiKeyIndex) % 26);
+    //console.log((letter - 65 + asciiKeyIndex) % 26);
     return String.fromCharCode((letter - 65 + asciiKeyIndex) % 26 + 65);
   }
 }
